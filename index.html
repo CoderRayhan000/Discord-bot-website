@@ -1,129 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/now-ui-kit.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
-    <title>Your bot name</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>ROBOT</title>
+    <meta name="description" content="idk something about ur bot goes here">
+    <meta name="theme-color" content="#f54254">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
-<nav class="navbar navbar-expand-lg bg-transparent">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
-    </button>
-    <img src="assets/BotLogo.svg" width="50" height="50">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#/">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Dashboard</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Subscription</a>
-            </li>
-        </ul>
-        <div class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Documentation
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Commands</a>
-                <a class="dropdown-item" href="#">Tutorials</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Server settings</a>
+
+<body style="background-color: var(--background);">
+    <div id="top" style="height: 12px;">
+        <nav class="navbar navbar-light navbar-expand fixed-top" style="color: var(--main-color);border-top-width: 6px;border-top-style: solid;background: var(--background);">
+            <div class="container-fluid"><a class="navbar-brand" href="#" style="color: var(--main-color);font-family: 'Alfa Slab One', cursive;">ROBOT</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="nav-link active smoothScroll" href="#feature" style="color: var(--text-color);">Features</a></li>
+                        <li class="nav-item"><a class="nav-link smoothScroll" href="#commands" style="color: var(--text-color);">Commands</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color: var(--text-color);">Invite</a></li>
+                    </ul>
             </div>
-        </div>
-        <div class="nav-item">
-            <a class="nav-link" href="#">About</a>
-        </div>
-        <button class="btn login-btn btn-outline-accent my-2 my-sm-0" style="font-size: 10px !important;font-family: poppins !important;">LOGIN</button>
     </div>
-</nav>
-<div class="heading">
-    <h1 class="display-5 title">It's time to use Bot in your server.</h1>
-    <p class="subtitle">Bot is a multi-purpose bot ready to skill up and boost up your Discord server<br />Also features auto-moderation, administration, music and much more!</p>
-    <a class="btn btn-primary btn-lg" href="#start_link" target="_blank" role="button">Get started</a>
-    <a class="btn btn-secondary btn-lg" href="#server_link" target="_blank" role="button">Add to server</a>
-    <br /><br /><br /><br /><br /><br />
-</div>
-<div class="features">
-    <div class="title">Features of Bot</div>
-    <div class="subtitle">We provide you the best features in Bot!</div>
-    <div class="cards">
-        <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Feature #1</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex ante, mattis vel dapibus vel, tempor facilisis justo. Vivamus dignissim ut nisi eu consequat.</p>
+    </nav>
+    </div>
+    <header class="d-xl-flex flex-column justify-content-xl-center align-items-xl-center" style="height: 418px;text-align: center;margin: 55px;"><img class="rounded" src="/assets/img/bot.png" width="150" height="150" style="margin-top: 30px;">
+        <h1 class="d-xl-flex justify-content-xl-start" style="color: var(--text-color);">OP BOT</h1>
+        <p style="color: var(--secondary-text-color);">The Best Multipurpose Bot!</p>
+        <div class="tada animated"><div role="group" class="btn-group">    <a href="https://discord.com/api/oauth2/authorize?client_id=1022434881411764304&permissions=8&scope=bot%20applications.commands" class="btn btn-primary shadow-none" type="button" style="margin: 5px;background-color: var(--main-color);border-color: var(--main-color);border-radius: 10px;">Invite Me</a>
+	
+	<a class="btn btn-primary smoothScroll shadow-none" role="button" style="margin: 5px;background-color: var(--main-color);border-color: var(--main-color);border-radius: 10px;"
+        href="#feature">Features</a></div></div>
+    </header>
+    <div id="feature" style="height: 90px;background: var(--secondary);"><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--background)" fill-opacity="1" d="M0,96L40,112C80,128,160,160,240,144C320,128,400,64,480,48C560,32,640,64,720,69.3C800,75,880,53,960,58.7C1040,64,1120,96,1200,96C1280,96,1360,64,1400,48L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg></div></div>
+    <div class="features-boxed" style="background: var(--secondary);">
+        <div class="container" style="color: var(--main-color);">
+            <div class="intro">
+                <h2 class="text-center" style="color: var(--text-color);">OP BOT Features</h2>
+            </div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div id="features" class="box" style="/*border-radius: 34px;*/"><i class="fa fa-bolt icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">Ping</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">Our Ping For Our Bot Is Low So You Can Get What You Want With Our Bot AT Lightning Speed!<br></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div id="features" class="box"><i class="fa fa-lock icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">Secure</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">ROBOT is an easy and safe bot to use with 100+ commands<br></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div id="features" class="box"><i class="fa fa-smile-o icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">Growing</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">Please add our bot so we can grow and make better commands <br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <div style="background-color: var(--background);"><div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-41.53,-9.56 C167.83,173.98 302.14,-60.89 534.09,89.10 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: var(--secondary);"></path></svg></div></div>
+    <div id="commands">
+        <section>
+            <div class="container-fluid text-white">
+                <div class="row row-cols-3 justify-content-center" style="color: var(--secondary-text-color);">
+                    <div class="col-auto col-md-6 col-lg-4 text-center pb-5 pt-5 number-item love_counter">
+                        <h1 class="love_count" style="font-size: 70px;"><strong>9</strong></h1>
+                        <h4 style="color: var(--main-color);margin-top: -6px;">Total Servers</h4>
+                    </div>
+                    <div class="col-auto col-lg-4 text-center align-self-center pb-5 pt-5 love_counter">
+                        <h1 class="love_count" style="font-size: 70px;"><strong>124</strong></h1>
+                        <h4 style="color: var(--main-color);margin-top: -6px;">Total Users</h4>
+                    </div>
+                </div>
+            </div>
+        </section><div class="container">
+  <h2> Robot Commands</h2>
+  <div class="accordion">
+
+    
+          <div class="accordion-item">
+      <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Community Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>/add-role
+Adds a role to a user <br>
+/role-to-all
+Role that will be assigned to the all users.<br>
+/avatar
+Fetch another users avatar. <br>
+/bot-invite
+Invite Link to add this bot <br>
+/invites 
+Gets a users server invites count. <br>
+/customcommand
+Make a custom command  <br>
+/dictionary
+This gets the definition of a word <br>
+/dm-user 
+DMs a user <br>
+/create-custom-embed 
+Customize an embed. <br>
+/fortnite-meme
+Sends A Fortnite Meme <br>
+/help
+Get a list of all the commands form the discord bot. <br>
+
+mc-meme
+sends a random meme <br>
+member-count
+Get the server's member count <br>
+memes
+sends a random meme <br>
+news
+Get The Latest News By BBC NEWS <br>
+system-info
+Info About System Hardware <br>
+ping
+Gets latency of the bot! <br>
+poll
+Create a poll! <br>
+serverinfo
+Displays information about the server. <br>
+spam-message
+Spam a message to a certain channel (x3) <br>
+bot-info
+Get statistics on the bot!</p>
+      </div>
+    </div>
+
+     <div class="accordion-item">
+      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Automod Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+
+        <p> /anti-alt
+Anti alt system <br>
+anti-ping
+Anti ping system <br>
+anti-swear
+Anti swear system <br>
+flagword
+Flag a word fo this server <br>
+remove-flagword
+Remove the flagword system </p>
+          </div>
+    </div>
+    
+          <div class="accordion-item">
+      <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Game Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>/8ball
+Asks the magic 8ball a question. <br>
+/coinflip
+Flip a coin <br>
+/connect4
+Connect 4 In Discord <br>
+/fight
+Fight Game <br>
+/hangman
+Play hangman in discord! <br>
+/rickroll
+Rickroll Meme
+/roblox
+Play Number Of Games In Roblox +++ FREE ROBUX!!
+/roblox-account
+Create Roblox Account
+/rps
+Rock Paper Scissors
+/spam-button
+Spam A Button For Points ( Mini-Game )
+/steal
+Add a given emoji to the server
+/triva
+Play The Triva Game!
+/uno-reverse
+Uno Reverse Meme
+/wouldyourather
+wouldyourather command
+        </p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Moderation Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>.kick - Kicks A User .kick @user </br>.mute - Mutes A User </br>.ban - Bans A User </br>.purge - Deletes Messages </br>.lockchannel - Locks Channel </br>.unlockchannel - Unlock Channel</p>
         </div>
     </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Feature #2</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex ante, mattis vel dapibus vel, tempor facilisis justo. Vivamus dignissim ut nisi eu consequat.</p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Feature #3</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex ante, mattis vel dapibus vel, tempor facilisis justo. Vivamus dignissim ut nisi eu consequat.</p>
+         <div class="accordion-item">
+      <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Setup Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>.setup Setup Your Server <br> .setup-automeme Auto Meme</p>
+      </div>
+  </div>
+</div></div>
             </div>
         </div>
     </div>
-</div>
-<div class="statistics">
-    <div class="cards">
-        <div class="card statistic" style="width: 18rem;">
-            <div class="card-body">
-                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">000</h1>
-                <p style="font-weight: bold !important;font-size: 20px !important;">servers</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--secondary)" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,154.7C384,171,480,213,576,218.7C672,224,768,192,864,181.3C960,171,1056,181,1152,192C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <div class="footer-dark" style="background: var(--secondary);padding-top: 0px;padding-bottom: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col item social"><a class="smoothScroll" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
             </div>
-        </div>
-        <div class="card statistic" style="width: 18rem;">
-            <div class="card-body">
-                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">000</h1>
-                <p style="font-weight: bold !important;font-size: 20px !important;">users</p>
-            </div>
-        </div>
-        <div class="card statistic" style="width: 18rem;">
-            <div class="card-body">
-                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">000</h1>
-                <p style="font-weight: bold !important;font-size: 20px !important;">channels</p>
-            </div>
+            <p class="credits" style="color: var(--text-color);">Made By Rayhan</p>
         </div>
     </div>
-</div>
-<div class="page_end">
-    <div class="start">
-        <div class="card">
-            <div class="card-body gs-card">
-                <div class="title">Ready to try Bot?</div>
-                <div class="subtitle">Invite Bot and start giving your server cool perks!</div>
-                <br />
-                <a class="btn btn-primary btn-lg" href="#start_link" role="button">Get started</a>
-            </div><br />
-        </div>
-    </div>
-    <div class="footer">
-        <div class="bot-footer">
-            <img src="assets/BotLogoWord.svg" width="150"><br />
-            Copyright © [BotOwner] - 2020
-        </div><br/>
-        <div class="nouridio">website designed by <a href="https://nouridio.com"> nouridio</a></div>
-    </di
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="js/now-ui-kit.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Counting.js"></script>
+    <script src="assets/js/untitled.js"></script>
 </body>
+
 </html>
